@@ -1,0 +1,65 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6C3CDB ;
+    background: linear-gradient(to left, #6C3CDB, aquamarine,#6C3CDB)
+}
+#container {
+    background-color:black;
+    padding: 20px;
+    height: 500px;
+    width: 275px;
+    border-radius: 20px;
+    color: aquamarine;
+    font-weight: 400;
+    margin: 10% auto;
+    box-shadow: -2px 2px 6px #ff2d95;
+
+}
+#calculate {
+    height: 50px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: aquamarine;
+    font-size: 150%;
+    font-weight: bolder;
+    color: #6C3CDB;
+    border: none;
+    margin: 30px auto;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 3px 6px #ff2d95;
+}
+#totalTip {
+    margin: 20px auto;
+    text-align: center;
+}
+#calculate:hover {
+    cursor:pointer;
+    background-color: #65CCA9;
+}
+#calculate:active {
+    box-shadow: 0 2px  #666;
+  transform: translateY(3px);
+}
+#qualService{
+    background-color: aquamarine;
+    color: #6C3CDB;
+}
+::placeholder {
+    color: #6C3CDB;
+}
+.input {
+    background-color: aquamarine;
+    border: none;
+    height: 20px;
+    width: 60%;
+    border-radius: 5px;
+    text-align: center;
+    color: #6C3CDB;
+    font-size: small;
+}
+
+
+    h1 {
+        text-shadow: -2px 2px 3px #ff2d95;
+    }
