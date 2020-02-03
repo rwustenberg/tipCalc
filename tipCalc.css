@@ -11,9 +11,8 @@ body {
     border-radius: 20px;
     color: aquamarine;
     font-weight: 400;
-    margin: 10% auto;
+    margin: 20% auto;
     box-shadow: -2px 2px 6px #ff2d95;
-
 }
 #calculate {
     height: 50px;
@@ -24,7 +23,7 @@ body {
     font-weight: bolder;
     color: #6C3CDB;
     border: none;
-    margin: 30px auto;
+    margin: 50px auto;
     display: block;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 0 3px 6px #ff2d95;
@@ -66,4 +65,27 @@ h1 {
 #each,
 #totalTip {
     display: none;
+}
+.form-element {
+    margin-top: 3rem;
+}
+.form-element > * {
+    display: block;
+}
+
+.form-element label {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.form-element select {
+    margin: 0;
+    width: 100%;
+}
+
+.form-element input {
+    margin: 0;
+    padding: 0 0.5rem;
+    text-align: left;
+    width: calc(100% - 1rem);
 }
