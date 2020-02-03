@@ -23,14 +23,15 @@ body {
     font-weight: bolder;
     color: #6C3CDB;
     border: none;
-    margin: 50px auto;
+    margin: 40px auto;
     display: block;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 0 3px 6px #ff2d95;
 }
 #totalTip {
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
+    padding-bottom: 1.5rem;;
 }
 #calculate:hover {
     cursor:pointer;
